@@ -1,0 +1,165 @@
+/*The Aartvark Webpage - Stylesheet*/
+
+/* Header Styles */
+.header {
+    margin: auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.header p {
+    font-size: 16pt;
+    width: 900px;
+    margin: auto;
+}
+
+.header h2 {
+    color: #1B48EB;
+}
+
+
+/* Tag Button Styles */
+.tag {
+    border: none;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.tag:focus {
+    outline:0;
+    content: none;
+}
+
+
+/* Navigation Styles */
+.nav {
+    width: 1000px;
+    margin: auto;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#nav2 {
+    padding-top: 0px;
+    margin-bottom: 50px;
+}
+
+.nav h1 {
+    font-size: 14pt;
+    display: inline;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#typeDropdown {
+    margin: 20px;
+}
+
+#brandDropdown {
+    margin-right: 30px;
+}
+
+.nav input {
+    display: block;
+    float: right;
+    margin: 20px;
+    padding: 5px;
+    width: 250px;
+    border-radius: 3px;
+    outline: none;
+    border-width: thin;
+    border-style: solid;
+    border-color: lightgray;
+}
+
+.nav .LowToHigh, .HighToLow {
+    margin: 10px;
+    padding: 7px;
+    width: 120px;
+    background-color: white;
+    border-radius: 3px;
+    border-style: solid;
+}
+
+.nav .LowToHigh:hover, .HighToLow:hover {
+    background-color: lightgray;
+}
+
+
+
+/*List styles*/
+.list  ul{
+    list-style-type: none;
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+
+/* ItemBox Styles*/
+.itemTile {
+    width: 350px;
+    margin: 15px;
+    margin-bottom: 50px;
+    text-align: center;
+    height: 450px;
+}
+
+.itemTile img {
+    max-height: 200px;
+}
+
+.itemDes {
+    text-align: left;
+}
+
+.itemTile h2 {
+    font-size: 13pt;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.itemTile h3 {
+    font-size: 12pt;
+    margin: 0;
+    margin-top: 7px;
+}
+
+.itemTile p {
+    margin-bottom: 10px;
+    margin-top: 15px;
+    height: 90px;
+}
+
+.itemTile h4 {
+    font-size: 10pt;
+    margin-top: 5px;
+}
+
+/* To Top Button style */
+#toTop {
+    margin-left: 48%;
+    margin-bottom: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #1B48EB;
+    color: white;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    font-size: 30pt;
+    font-family: monospace;
+    padding-top: 5px;
+}
+
+#toTop:hover {
+    background-color: #555;
+}
